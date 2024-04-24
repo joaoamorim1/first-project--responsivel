@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+img{
+    width: 568px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 68px;
+
+}
+
+
+
+header{
+    font-weight: 600;
+    color:#989D9C;
+    font-size: 24px;
+    line-height: 30px;
+    position: absolute;
+    margin: 20px 0 0 54px;
+   
+ 
+}
+
+a{
+    margin-right: 10px;
+    text-decoration:none;
+    font-weight: 600;
+    color:#989D9C;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+a:active{
+    opacity: .5;
+}
+
+
+
+p{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #848484;
+    width: 515px;
+    height: 87px;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 100px;
+    color: #515151;
+    line-height: 120px ;
+    width: 513px;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 70px;
+    color: #515151;
+
+}
+
+div{
+    display: inline-block;
+   
+}
+
+main{
+    display: inline-block;
+    margin-left: 100px;
+
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 220px;
+}
+
+h1,h2,p{
+    margin-bottom: 20px;
+}
+
+
+
+
+.button-main{
+    background: #ADFF00;
+    color: #000000;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    border-radius: 50px;
+    width: 250px;
+    height: 65px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: .5;
+   
+}
+
+
+
+.button-header {
+    background: #665AE1;
+    border-radius: 21px;
+    width: 130px;
+    height: 41px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.button-header:hover {
+    opacity: .7;
+}
+
+.button-header:active {
+    opacity: .4;
+}
+
+.button-main:hover {
+    opacity: .7;
+}
+
+.button-main:active {
+    opacity: .4;
+    background: red;
+}
+
+@media (max-width:617px){
+
+    header{
+        display: none;
+    }
+
+    .section-left{
+        display: block;
+        width: 100vw;
+        height: 60%;
+    }
+    img{
+        margin: 0 auto;
+        display: block;
+        width: 354px;
+        height: auto;
+    }
+
+    h1{
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+        width: auto;
+    }
+
+    h2{
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+         width: auto;
+    }
+
+    p{
+        display: none;
+
+    }
+
+    main{
+        text-align: center;
+        display: block;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        height: auto;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
